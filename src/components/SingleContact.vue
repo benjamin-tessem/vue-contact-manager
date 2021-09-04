@@ -129,6 +129,13 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+li h1,
+li h2,
+li p {
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
 a {
   color: #42b983;
 }
